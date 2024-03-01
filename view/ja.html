@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+</link>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha384-d6sYACqUZ9+ZUZJrW8BRHduPQlTtuIFs2w3PrqGfsJr7zA8IH1ZAgY7u98JHCOYWL" crossorigin="anonymous">
+  
+  <style> 
+      .move_right {
+  /* ... */
+  z-index: 1; /* Adjust as needed */
+}
+
+/* Adjust z-index for other elements if necessary */
+
+#herotext,
+#img_part,
+.countdown-body,
+.container,
+.wrapper,
+.myfooter {
+  z-index: 2; /* Adjust as needed */
+}
+
+  video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    
+    }
+    
+      </style>
+      <video autoplay muted loop>
+        <source src="/img/25.mp4" type="video/mp4">
+      </video>
+ 
+ <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #ffffff;
+      padding: 2rem;
+      background-color: #ffffff;
+      background-image: url('background-image.jpg');
+      background-size: cover;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 1000px rgba(87, 7, 216, 0.684);
+    }
+
+    h1, h2 {
+      font-weight: bold;
+      margin-top: 1.5rem;
+      color: #ffffff;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      color: #fffefe;
+    }
+
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    button {
+      background-color: #2474d0; /* Nylon color */
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    button:hover {
+      background-color: #35aec1; /* Darker Nylon color on hover */
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+
+    .hover-effect:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .icon {
+      font-size: 2rem;
+      margin-right: 0.5rem;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+    <style>
+        .nylon-box {
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 20px rgba(19, 211, 232, 0.3);
+          background: linear-gradient(to right,  #064e91, #11d6e8); /* Adjust the background color as needed */
+          margin-bottom: 20px; /* Add margin between the boxes */
+        }
+      </style>
+    
+    <div class="container">
+        <h1 class="bungee-shade-regular " style="text-align: center;">Free Fire Showdown</h1>
+
+
+      
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <img src="/img/abt.png" alt="" style="height: 255px; width: 255px;">
+        </div >
+      
+        <p class="timmana-regular">
+          Welcome to the Free Fire Showdown, an electrifying competition where the fiercest warriors clash in the virtual
+          arena. Gather your squad, register, and embark on a thrilling journey to outlast all rivals. The competition
+          features a series of intense matches, challenging your teamwork, strategy, and individual skills. With enticing
+          rewards and the glory of victory at stake, only the most skilled and strategic teams will rise to the top. Brace
+          yourself for the ultimate Free Fire showdown - may the last squad standing be yours!
+        </p>
+      
+        <div class="grid-container">
+          <!-- Nylon Box for Registration -->
+          <div class="hover-effect nylon-box">
+            <h2 class="luckiest-guy-regular">Registration</h2>
+            <p class="timmana-regular">
+              Registration Fee: Rs. 100<br>
+              Registration End Date: 15-03-2024<br>
+              Event Incharge: Yeshwanth - 7397337534
+            </p>
+            <button class="hover-effect">Register Now</button>
+          </div>
+      
+          <!-- Nylon Box for Event Details -->
+          <div class="hover-effect nylon-box">
+            <h2 class="luckiest-guy-regular">Event Details</h2>
+            <ul class="timmana-regular">
+              <li><strong>Event:</strong> Free Fire Showdown</li>
+              <li><strong>Date:</strong> Day 2</li>
+              <li><strong>Team Size:</strong> 4 Members</li>
+              <li><strong>Venue:</strong> Tech Lounge</li>
+              <li><strong>Timings:</strong> 12:00 p.m.</li>
+              <li><strong>Duration:</strong> 4 hours</li>
+              <li><strong>Host:</strong> Rotaract</li>
+            </ul>
+          </div>
+      
+          <!-- Nylon Box for Prizes -->
+          
+          <div class="hover-effect nylon-box">
+            <h2 class="luckiest-guy-regular">Prizes</h2>
+            <p class="timmana-regular">Exciting prizes await the winners of the Free Fire Showdown. Compete for glory and valuable rewards!</p>
+            <ul class="timmana-regular">
+              <li><i class="icon fas fa-award"></i> First Prize - Rs. 100</li>
+              <li><i class="icon fas fa-award"></i> Second Prize - Rs. 50</li>
+            </ul>
+          </div>
+      
+          <!-- Nylon Box for Student Coordinators -->
+          <div class="hover-effect nylon-box">
+            <h2 class="luckiest-guy-regular">Student Coordinators</h2>
+           <ul class="timmana-regular"> <li>harish-215156156</li>
+            <li>ram-21515115616</li> </ul>
+          </div>
+        </div>
+      
+ 
+  <!-- ... Remaining HTML code ... -->
+  
+    <h2 class="luckiest-guy-regular">Rules and Regulations</h2>
+    <ul class="timmana-regular">
+      <li>This will be a battle royale mode game, participants can register as a squad of 4.</li>
+      <li>Every room will host a battle among 48 participants.</li>
+      <li>Each participant is responsible for their own network though wifi will also be provided.</li>
+      <li>Maps will be chosen by the organizer.</li>
+      <li>Only the leader of the team can contact the organizers.</li>
+      <li>Failure to present the Point of View (POV) will result in disqualification.</li>
+      <li>The remaining regulations will adhere to the standard Free Fire guidelines.</li>
+      <li>Participants are required to bring their own mobile devices.</li>
+    </ul>
+  </div>
+ 
+  <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #111;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        transition: transform 0.5s, filter 0.5s;
+        cursor: pointer;
+    }
+
+    img:hover {
+        transform: scale(1.2);
+        filter: brightness(1.5) drop-shadow(0 0 10px rgba(0, 255, 255, 0.8));
+    }
+</style>
+<script>
+function zoomAndLight() {
+const image = document.querySelector('img');
+image.style.transform = 'scale(1.2)';
+image.style.filter = 'brightness(1.5) drop-shadow(0 0 10px rgba(0, 255, 255, 0.8))';
+}
+</script>
+
+</body>
+
+</html>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Bungee+Shade&family=Honk&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Luckiest+Guy&family=Rock+Salt&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Bungee+Shade&family=Honk&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Luckiest+Guy&family=Rock+Salt&family=Rubik+Doodle+Shadow&family=Timmana&display=swap" rel="stylesheet">
+ 
+<link rel="stylesheet" href="/font/font.css" type="text/css">

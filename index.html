@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYGNUS'24</title>
+    <style>
+        .move_right {
+     /* Set display to block to make them appear on new lines */
+     /* You can adjust the margin to set the desired gap between the div elements */
+            margin-left: auto;
+            column-count: 1;
+  
+        }
+    </style>
+
+    
+
+
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Bungee+Shade&family=DM+Serif+Display:ital@0;1&family=Honk&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Luckiest+Guy&family=Nosifer&family=Rock+Salt&family=Rubik+Doodle+Shadow&family=Rubik+Mono+One&family=Ruslan+Display&family=Rye&family=Stalinist+One&family=Timmana&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+<style>
+    .move_right {
+  /* ... */
+  z-index: 1; /* Adjust as needed */
+}
+
+/* Adjust z-index for other elements if necessary */
+
+#herotext,
+#img_part,
+.countdown-body,
+.container,
+.wrapper,
+.myfooter {
+  z-index: 2; /* Adjust as needed */
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+  </style>
+  
+  <video autoplay muted loop>
+    <source src="img/25.mp4" type="video/mp4">
+  </video>
+
+    <div class='container'>
+        <div id='herotext'>
+            <div data-aos='fade-down' data-aos-once=true data-aos-duration="1000">
+                <h3 class="stalinist-one-regular"  style=" text-align: center; color: rgb(6, 231, 235);font-weight: bolder;font-size: 20px ; text-shadow: 2px 2px 4px #ac48db;"> ELECTRICAL AND ELECTRONICS ENGINEERING</h3><br>
+                <h3 class=".unbounded-uniquifier" style="text-align: center; color: rgb(236, 147, 14);font-size: 18px;-webkit-text-stroke: 2px">PROUDLY PRESENTS</h3><br>
+            </div>
+            <div style="text-align: center; height: 300px;"  id="img_part">
+                <h3 class="protest-guerrilla-regular" style="text-align: center; color: rgba(38, 27, 183, 0.907);font-size: 30px; text-shadow: 2px 2px 4px #ffffff;"><b>A NATIONAL LEVEL TECHNICAL SYMPOSIUM</b></h3><br>
+                <a href="https://www.fontspace.com/category/gaming"><img src="https://see.fontimg.com/api/renderfont4/lg25V/eyJyIjoiZnMiLCJoIjo3NCwidyI6MTI1MCwiZnMiOjU5LCJmZ2MiOiIjRjlFQjMzIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/Q1lHTlVTJzI0/valorax.png" alt="Gaming fonts" style="width: 250px; height: 45px;"></a>
+                <h1  class="logo extraBold" style="text-align: center; color: rgb(195, 228, 28);font-size: 50px;font-family: 'Exo 2', sans-serif;-webkit-text-stroke: 5px"></h1>
+          <br> <img src="img/logo.png" width="200px" height="200px" style="padding: 15px; border-radius: 25%;" alt=""> </div> 
+              <style>
+                body {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                    background-color: #111;
+                }
+        
+                img {
+                    width: 150px;
+                    height: 150px;
+                    transition: transform 0.5s, filter 0.5s;
+                    cursor: pointer;
+                }
+        
+                img:hover {
+                    transform: scale(1.2);
+                    filter: brightness(1.5) drop-shadow(0 0 10px rgba(0, 255, 255, 0.8));
+                }
+            </style>
+ <script>
+        function zoomAndLight() {
+            const image = document.querySelector('img');
+            image.style.transform = 'scale(1.2)';
+            image.style.filter = 'brightness(1.5) drop-shadow(0 0 10px rgba(0, 255, 255, 0.8))';
+        }
+    </script>
+
+              <div class="countdown-body">
+    <div class="header">
+        <p >THE REGISTRATION ENDS!!!</p>
+    </div>
+    <div class="counter">
+        <div class="days" >
+            <div class="box" id="days">08</div>
+            <p>DAYS</p>
+        </div>
+        <div class="hours" >
+            <div class="box" id="hours">23</div>
+            <p>HOURS</p>
+        </div>
+        <div class="minutes" >
+            <div class="box" id="minutes">55</div>
+            <p>MINUTES</p>
+        </div>
+        <div class="seconds" >
+            <div class="box" id="seconds">41</div>
+            <p>SECONDS</p>
+        </div>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+
+ <!-- About div -->
+    <div class="container">
+        <h2  class="extraBold gradient0" style="text-align: center; color: rgb(234, 255, 0);font-weight: bolder;">About the Event</h2><br>
+        <div class="row justify-content-between">
+            <div class="col-md-6 text-center">
+                <img src="img/abt.png" alt="" ; class="columnImage" height="300px" width="300px" style="position:relative; z-index:10015; margin-top: 7%; margin-bottom: 7%";>
+            </div>
+            <div class="col-md-6 columnText" style="color: rgb(255, 255, 255);font-weight: bolder;">
+                <p class="timmana-regular">
+                    Cygnus is a National level technical symposium that is conducted every year by the Department of ELECTRICAL AND ELECTRONICS ENGINEERING. This symposium serves as a platform for discussing upcoming trends, exploring the latest technological advancements,
+                    and sharing innovative research. Imagine a world where technical prowess meets boundless fun. Here are 8 events spanning various domains that infuse technology with excitement and joy. All these events will feature guest speakers
+                    and experts who will share their knowledge and insights with the attendees. This symposium plays a crucial role in bridging the academic and industrial gap which contributes to the advancement of innovation and technology in ELECTRICAL AND ELECTRONICS ENGINEERING.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="myFlex" id="socialMediaSection" style="text-align: center; color: rgb(0, 485, 255); font-weight: bolder;">
+        <i onclick="window.open('https://www.instagram.com/cygnus_2023_?igsh=eDFvNGZkY3VzbmE5', '_blank').focus();" class="socialMediaIcons bi bi-instagram gradient1"></i>
+        Instagram
+        <i onclick="window.open('https://maps.app.goo.gl/bfpLHtMyNWC3MhDX9', '_blank').focus();" class="socialMediaIcons bi bi-geo-alt-fill gradient1"></i>
+        Location
+    </div>
+    
+</div>
+</div>
+</div><br><br><br>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body, html {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: url(/img/backin.png);
+            margin: 20px 0;
+        }
+
+        header {
+            font-style: normal;
+            font-size: 25px;
+            background: linear-gradient(to right, #004084, #ac48db);
+            padding: 10px;
+            border-radius: 5px;
+            color: rgb(234, 255, 0);
+            font-weight: 25; 
+            -webkit-text-stroke: 2px;
+            margin-bottom: 20px;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Updated to space around for parallel cards */
+            max-width: 1000px; /* Set a maximum width for better responsiveness */
+        }
+
+        .card {
+            width: 45%; /* Adjusted width to fit two cards in parallel */
+            height: 360px;
+            border-radius: 15px;
+            padding: 1.5rem;
+            background: rgb(8, 228, 240);
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            transition: 0.4s ease-out;
+            box-shadow: 0px 7px 10px rgba(11, 240, 224, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .card:nth-child(odd) {
+            margin-right:2%; /* Add a small margin between the cards for spacing */
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 15px;
+        }
+
+        .card .info {
+            position: relative;
+            z-index: 3;
+            color: rgb(255, 255, 255);
+            opacity: 0;
+            transform: translateY(30px);
+            transition: 0.5s;
+        }
+
+        .card:hover {
+            transform: translateY(20px);
+        }
+
+        .card:hover:before {
+            opacity: 1;
+        }
+
+        .card:hover .info {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+
+        .card:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 2;
+            transition: 0.5s;
+            opacity: 0;
+        }
+
+        .card .info h1 {
+            margin: 0px;
+            color: #0feccb;
+        }
+
+        .card .info p {
+            letter-spacing: 1px;
+            font-size: 15px;
+            margin-top: 8px;
+        }
+
+        .card .info button {
+            padding: 0.6rem;
+            outline: none;
+            border: none;
+            border-radius: 3px;
+            background: rgb(27, 193, 238);
+            color: rgb(253, 251, 251);
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.4s ease;
+        }
+
+        .card .info button:hover {
+            background: linear-gradient(to right, #01ffd9, #ac48db);
+            color:rgb(234, 255, 0) ;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <h2  class="extraBold gradient0" style="text-align: center; color: rgb(234, 255, 0);font-weight: bolder;">Register Now!!</h2> </div>
+    
+<div class="wrapper">
+    <div class="card">
+        <img src="img/1.png" alt="">
+        <div class="info">
+            <h1> Techincal Events </h1>
+            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry </p>
+            <a href="view/tech.html"> <button>View More</button> </a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/3.jpg" alt="">
+        <div class="info">
+            <h1>Non-Techincal Events</h1>
+            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+          <a href="view/nontech.html"> <button>View More</button> </a>
+        </div>
+    </div>
+
+    <div id="aboutdiv" class="container">
+        <h2  class="extraBold gradient0" style="text-align: center; color: rgb(234, 255, 0);font-weight: bolder;">About Crescent</h2>
+        <p class="columnText" style="color: rgb(255, 255, 255);font-weight: bolder;">
+            B.S. Abdur Rahman Crescent Institute of Science and Technology, formerly B. S. Abdur Rahman University, is a private deemed university located in Tamil Nadu, India.[1] Previously, functioning under University of Madras (1984–2001) and Anna University (2001–09) as Crescent Engineering College, the institute gained deemed status in 2008–09. It is located in Vandalur near Tambaram and cmbt bus stand ,opposite to Arignar Anna Zoological Park, a suburban area of Chennai , India.It is one of the prominent college in tamilnadu
+        </p>
+    </div><br><br><br>
+
+    <div class="container">
+        <h2  class="extraBold gradient0" style="text-align: center; color: rgb(234, 255, 0);font-weight: bolder;">About EEE</h2>
+        <p class="columnText" style="color: rgb(255, 255, 255);font-weight: bolder;">
+            Our Department of Electrical and Electronics Engineering (EEE) at B. S. Abdur Rahman Crescent Institute of Science and Technology, established in 1984 alongside the college’s inception. Our department has been at the forefront of delivering quality education and conducting cutting-edge research in the field.
+        </p>
+    </div><br><br><br>
+
+    <h2  class="extraBold gradient0" style="text-align: center; color: rgb(234, 255, 0);font-weight: bolder;">General Guidlines</h2>
+    <div class="newExtraBold" style="text-align: center; color: rgb(255, 255, 255);font-weight: bolder;" style="width:max-content;max-width:90%;margin:auto;position:relative;z-index: 10001;" >
+        1.150 rupees is the registration fee per head for the entire event.<br><br> 2.Only registered participants will be allowed to attend the event , on spot registrations will not be entertained.<br><br> 3.It is mandatory for the participants to provide
+        their college ID at the help desk for verification.<br><br> 4.Proper dress code should be followed by the participants.<br><br> 5.A participant is not restricted to participation in any number of events as long as the event timings do not clash.<br><br>        6.All the events will commence at the scheduled time, participants are requested to be punctual.<br><br> 7.Participants are requested to collect the event tag from the help desk present in the workshop block.<br><br> 8.No refund on the registration
+        fees will be encouraged.<br><br> 9.Students should refrain from using abusive language, obscene display and maintain good decorum.<br><br> 10.Smoking, consumption of alcohol or any such substance is strictly prohibited inside the college premises.<br><br>        11.Rules are subject to changes at the discretion of the management or the event organisers.<br><br>
+    </div><br><br> 
+
+    <!-- Co ordinator List -->
+
+    <style>
+        body {
+            background-color: #f3ebeb;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .myHeader {
+            text-align: center;
+            color: rgb(234, 255, 0);
+            font-weight: bolder;
+        }
+    
+        .extraBold {
+            font-weight: bolder;
+        }
+    
+        .gradient0 {
+            background: linear-gradient(to right, #064e91, #11d6e8);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: stretch; /* Align items to stretch equally */
+            margin-top: 20px;
+        }
+    
+        .col-md-4 {
+            text-align: center;
+        }
+    
+        /* Updated class names */
+        .newHeader {
+            text-align: center;
+            color: rgb(230, 231, 219);
+            font-weight: bolder;
+        }
+    
+        .jaha:nth-child(odd) {
+            margin-right: 75px;
+        }
+    
+        .newExtraBold {
+            font-weight: bolder;
+            color: #fff;
+        }
+    </style>
+    
+    <div class="container">
+        <h2 class="newHeader newExtraBold gradient0">Contacts</h2>
+    </div>
+    <br> <br><br> <br>
+    
+    <div style="color: white;" class="row d-flex justify-content-center">
+        <div class="col-md-4 text-center">
+            <!-- Student Co-ordinators -->
+            <h5 class="extraBold gradient0">Student Co-ordinators:</h5><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"> <br>JEGAN P</h5><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"> <br>SUDARVEL K</h5><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"> <br>DANIEL S</h5><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"> <br>DEEPTHI P A</h5><br><br>
+        </div>
+        <div class="col-md-4 text-center">
+            <!-- Help Desk -->
+            <h3 class="extraBold gradient0">Help Desk:</h3><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"> <br>SRIVIDHYA S</h5>
+            <h6>9080573144</h6><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"> <br>SREENIDHI P</h5>
+            <h6>8248134935</h6><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"><br> Gayathri P</h5>
+            <h6>7904432828</h6><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"><br> Harini N</h5>
+            <h6>9003331144</h6><br>
+        </div>
+        <div class="col-md-4 text-center">
+            <!-- Website Developed By -->
+            <h5 class="extraBold gradient0">Website Developed By:</h5><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"> <br>JAHANGER J</h5><br>
+            <h5 class="extraBold"><img src="img/2jpg.jpg" style="border-radius: 50%;"> <br> RAHUL A</h5><br>
+        </div>
+    </div>
+    <br><br>
+    
+
+    
+    <div class="myfooter">
+        <span class="footer" style="display:block;color:rgb(255, 255, 255);margin:auto;font-weight: 600;width: max-content;max-width: 90%;">Sponsored by</span><br><br>
+        <img src="img/cre.png" alt="" style="display:block;width: max-content; max-width: 90%;margin:auto;" />
+        <br>
+    </div>
+
+
+
+    <script src="/static/vendors/counter/flipdown.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+    <link rel="icon" type="image/x-icon" href="../static/img/rogo.png">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet">
+    <link href="/static/vendors/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/static/css/skin.css" rel="stylesheet" />
+    <link href="/static/css/notPC.css" rel="stylesheet" />
+    <link href="/static/vendors/counter/flipdown.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="font/font.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Bungee+Shade&family=Honk&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Luckiest+Guy&family=Rock+Salt&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Bungee+Shade&family=Honk&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Luckiest+Guy&family=Rock+Salt&family=Rubik+Doodle+Shadow&family=Timmana&display=swap" rel="stylesheet">
+     
+    <style>
+        .bungee-shade-regular {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    </style>
+</body>
+
+</html>
